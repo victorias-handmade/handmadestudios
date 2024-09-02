@@ -1,0 +1,82 @@
+/* styles.css */
+
+/* Importing fonts */
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:wght@600&family=Lato:wght@700&family=Adobe+Caslon+Pro:wght@400&display=swap');
+
+body {
+    font-family: 'Adobe Caslon Pro', serif;
+    background-color: #ffeedc;
+    color: #000000;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background-color: #ff9d9d;
+    color: #ffffff;
+    padding: 10px 0;
+    text-align: center;
+}
+
+header h1 {
+    font-family: 'Lato', sans-serif;
+    margin: 0;
+}
+
+nav ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin-right: 15px;
+}
+
+nav ul li a {
+    color: #ffffff;
+    text-decoration: none;
+    font-family: 'Lato', sans-serif;
+}
+
+main {
+    padding: 20px;
+    text-align: center;
+}
+
+h2 {
+    font-family: 'Playfair Display', serif;
+    color: #c7385f;
+}
+
+section {
+    margin-bottom: 20px;
+    padding: 20px;
+    background-color: #ffffff;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+button {
+    background-color: #c7385f;
+    color: #ffffff;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    font-family: 'Lato', sans-serif;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #ff9d9d;
+}
+
+footer {
+    background-color: #ff9d9d;
+    color: #ffffff;
+    text-align: center;
+    padding: 10px 0;
+    position: fixed;
+    width: 100%;
+    bottom: 0;
+}
