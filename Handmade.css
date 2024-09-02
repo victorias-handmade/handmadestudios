@@ -1,82 +1,65 @@
-/* styles.css */
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Handmade Studios</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <nav class="navbar">
+            <div class="logo">Handmade Studios</div>
+            <ul class="nav-links">
+                <li><a href="#section1">Home</a></li>
+                <li><a href="#section2">About</a></li>
+                <li><a href="#section3">Gallery</a></li>
+                <li><a href="#section4">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
 
-/* Importing fonts */
-@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:wght@600&family=Lato:wght@700&family=Adobe+Caslon+Pro:wght@400&display=swap');
+    <section id="section1" class="full-screen">
+        <div class="content">
+            <h1>Welcome to Handmade Studios</h1>
+            <p>Your destination for handcrafted fashion</p>
+            <button class="cta-button">Explore More</button>
+        </div>
+        <!-- Insert background image here -->
+    </section>
 
-body {
-    font-family: 'Adobe Caslon Pro', serif;
-    background-color: #ffeedc;
-    color: #000000;
-    margin: 0;
-    padding: 0;
-}
+    <section id="section2" class="full-screen">
+        <div class="content">
+            <h2>About Us</h2>
+            <p>Discover the art of handmade fashion</p>
+        </div>
+        <!-- Insert background image or video here -->
+    </section>
 
-header {
-    background-color: #ff9d9d;
-    color: #ffffff;
-    padding: 10px 0;
-    text-align: center;
-}
+    <section id="section3" class="full-screen gallery">
+        <div class="content">
+            <h2>Our Gallery</h2>
+            <div class="image-grid">
+                <!-- Insert images here -->
+                <img src="path-to-image1.jpg" alt="Gallery Image 1">
+                <img src="path-to-image2.jpg" alt="Gallery Image 2">
+                <img src="path-to-image3.jpg" alt="Gallery Image 3">
+            </div>
+        </div>
+    </section>
 
-header h1 {
-    font-family: 'Lato', sans-serif;
-    margin: 0;
-}
+    <section id="section4" class="full-screen">
+        <div class="content">
+            <h2>Contact Us</h2>
+            <p>Get in touch with us for custom orders</p>
+        </div>
+        <!-- Insert background image or video here -->
+    </section>
 
-nav ul {
-    list-style-type: none;
-    padding: 0;
-}
+    <footer>
+        <p>&copy; 2024 Handmade Studios. All Rights Reserved.</p>
+    </footer>
 
-nav ul li {
-    display: inline;
-    margin-right: 15px;
-}
-
-nav ul li a {
-    color: #ffffff;
-    text-decoration: none;
-    font-family: 'Lato', sans-serif;
-}
-
-main {
-    padding: 20px;
-    text-align: center;
-}
-
-h2 {
-    font-family: 'Playfair Display', serif;
-    color: #c7385f;
-}
-
-section {
-    margin-bottom: 20px;
-    padding: 20px;
-    background-color: #ffffff;
-    border-radius: 8px;
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
-}
-
-button {
-    background-color: #c7385f;
-    color: #ffffff;
-    border: none;
-    padding: 10px 20px;
-    border-radius: 5px;
-    font-family: 'Lato', sans-serif;
-    cursor: pointer;
-}
-
-button:hover {
-    background-color: #ff9d9d;
-}
-
-footer {
-    background-color: #ff9d9d;
-    color: #ffffff;
-    text-align: center;
-    padding: 10px 0;
-    position: fixed;
-    width: 100%;
-    bottom: 0;
-}
+    <script src="scripts.js"></script>
+</body>
+</html>
